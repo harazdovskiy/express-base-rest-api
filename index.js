@@ -1,6 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 
+// Try to use dotenv config, it's a best practice) https://www.npmjs.com/package/dotenv
 mongoose.connect('mongodb://localhost/TodoApp_db', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
